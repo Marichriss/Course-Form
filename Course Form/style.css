@@ -1,0 +1,63 @@
+body {
+    color: #2d7a9c;
+    font-family: "Lobster", "sans-serif";
+  }
+  
+  #title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 1000;
+  }
+   
+  legend {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  input {
+    margin: 20px;
+  }
+  textarea {
+    padding: 75px;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #cccc99;
+  }
+  
+  fieldset {
+    border-radius: 20px;
+    box-shadow: 1px 0px 5px;
+  }
+  
+  #submit {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #86c7d5 ;
+    border-radius: 20px;
+  }
+  
+  #address {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  #name-label, #phone-label, #email-label {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+  
+  #name {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  [for="name"] {
+    display: block;
+  }
+    
